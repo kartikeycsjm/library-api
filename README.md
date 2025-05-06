@@ -1,24 +1,23 @@
-# 📚 Library Management API
+# Library Management API
 
 A backend API for a simple **Library Management System** built using **NestJS** and **MongoDB**, supporting full **CRUD operations** and **fuzzy search** on books. Deployed on **Vercel** with Swagger documentation for easy testing.
 
 ---
 
-## 🔗 Hosted API
+## Hosted API
 
-- 🚀 [Live API on Vercel](https://your-vercel-link.vercel.app)  
-- 📘 [Swagger Docs](https://your-vercel-link.vercel.app/api)
+-  [Live API on Render](https://library-api-edvn.onrender.com)  
+-  [Swagger Docs](https://library-api-edvn.onrender.com/api)
 
 ---
 
-## ✨ Features
+## Features
 
-- ✅ Create, Read, Update, Delete books
-- 🔍 Case-insensitive fuzzy search (e.g., `"Pottr"` matches `"Harry Potter"`)
-- 📄 Swagger UI for API documentation
-- 🧱 MongoDB Atlas database
-- 🌐 Deployed to Vercel
-- 🛡️ Rate limiting and logging middleware (optional/bonus)
+- Create, Read, Update, Delete books
+- Case-insensitive fuzzy search (e.g., `"Pottr"` matches `"Harry Potter"`)
+- Swagger UI for API documentation
+- MongoDB Atlas database
+- Deployed to Render
 
 ---
 
@@ -32,10 +31,10 @@ A backend API for a simple **Library Management System** built using **NestJS** 
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
-git clone https://github.com/your-username/library-api.git
+git clone https://github.com/kartikeycsjm/library-api
 cd library-api
 npm install
 ```
@@ -58,7 +57,7 @@ mongodb+srv://<username>:<password>@cluster.mongodb.net/<dbname>?retryWrites=tru
 
 ---
 
-## 🚀 Running Locally
+## Running Locally
 
 ```bash
 npm run start:dev
@@ -66,7 +65,7 @@ npm run start:dev
 
 ---
 
-## 📚 API Endpoints
+## API Endpoints
 
 | Method | Endpoint         | Description                |
 |--------|------------------|----------------------------|
@@ -77,11 +76,11 @@ npm run start:dev
 | DELETE | `/books/:id`     | Delete book by ID          |
 | GET    | `/search?query=` | Fuzzy search on title, author, genre |
 
-> 🔎 Search is case-insensitive and tolerant to typos using Fuse.js.
+> Search is case-insensitive and tolerant to typos using Fuse.js.
 
 ---
 
-## 📑 Swagger Docs
+## Swagger Docs
 
 Swagger is available at:
 
@@ -108,36 +107,13 @@ You can try out all endpoints directly from the browser.
 
 ---
 
-## 📁 Project Structure
-
-```
-src/
-├── books/
-│   ├── books.controller.ts
-│   ├── books.service.ts
-│   ├── book.model.ts
-│   ├── dto/
-│   └── ...
-├── app.module.ts
-├── main.ts
-```
-
----
-
-## 🛡️ Optional Features (Bonus)
-
-- ✅ **Request Logger Middleware** – logs method, URL, timestamp
-- ✅ **Rate Limiting** – basic protection against abuse
-
----
-
-## 📝 License
+## License
 
 This project is licensed for submission to **Forescribe** hiring process only.
 
 ---
 
-## 🙌 Author
+## Author
 
 **Kartikey**  
 Built with 💻 and ❤️ using NestJS
