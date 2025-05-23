@@ -107,11 +107,6 @@ You can try out all endpoints directly from the browser.
 
 ---
 
-## License
-
-This project is licensed for submission to **Forescribe** hiring process only.
-
----
 
 ## Author
 
